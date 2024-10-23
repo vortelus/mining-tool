@@ -1,13 +1,3 @@
-# Rana 🐸
-
-![Rana](rana.png)
-
-Mine public keys that can be used with nostr.
-
-This is based on [nip13](https://github.com/nostr-protocol/nips/blob/master/13.md) example.
-
-Provide the desired difficulty or the vanity prefix as arguments. See below.
-
 ## Requirements:
 
 0. You need Rust version 1.64 or higher to compile.
@@ -32,7 +22,7 @@ sudo apt install -y cmake build-essential
 Then clone the repo, build and run:
 
 ```bash
-git clone https://github.com/grunch/rana.git
+git clone https://github.com/vortelus/mining-tool.git
 cd rana
 cargo run --release
 ```
